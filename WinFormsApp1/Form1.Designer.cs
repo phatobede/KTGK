@@ -28,64 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            txtusername = new TextBox();
-            txtmatkhau = new TextBox();
-            label2 = new Label();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtusername = new System.Windows.Forms.TextBox();
+            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnlogin = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(173, 97);
-            label1.Name = "label1";
-            label1.Size = new Size(73, 20);
-            label1.TabIndex = 0;
-            label1.Text = "username";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(173, 97);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "username";
             // 
             // txtusername
             // 
-            txtusername.Location = new Point(292, 90);
-            txtusername.Name = "txtusername";
-            txtusername.Size = new Size(125, 27);
-            txtusername.TabIndex = 1;
+            this.txtusername.Location = new System.Drawing.Point(292, 90);
+            this.txtusername.Name = "txtusername";
+            this.txtusername.Size = new System.Drawing.Size(125, 27);
+            this.txtusername.TabIndex = 1;
             // 
-            // txtmatkhau
+            // txtpassword
             // 
-            txtmatkhau.Location = new Point(292, 156);
-            txtmatkhau.Name = "txtmatkhau";
-            txtmatkhau.Size = new Size(125, 27);
-            txtmatkhau.TabIndex = 3;
+            this.txtpassword.Location = new System.Drawing.Point(292, 156);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.Size = new System.Drawing.Size(125, 27);
+            this.txtpassword.TabIndex = 3;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(173, 163);
-            label2.Name = "label2";
-            label2.Size = new Size(66, 20);
-            label2.TabIndex = 2;
-            label2.Text = "matkhau";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(173, 163);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "password";
+            // 
+            // btnlogin
+            // 
+            this.btnlogin.Location = new System.Drawing.Point(294, 223);
+            this.btnlogin.Name = "btnlogin";
+            this.btnlogin.Size = new System.Drawing.Size(94, 29);
+            this.btnlogin.TabIndex = 4;
+            this.btnlogin.Text = "login";
+            this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(txtmatkhau);
-            Controls.Add(label2);
-            Controls.Add(txtusername);
-            Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.txtpassword);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtusername);
+            this.Controls.Add(this.label1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
         private Label label1;
         private TextBox txtusername;
-        private TextBox txtmatkhau;
+        private TextBox txtpassword;
         private Label label2;
+        private Button btnlogin;
     }
 }
