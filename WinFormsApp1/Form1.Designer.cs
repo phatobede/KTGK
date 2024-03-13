@@ -28,69 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtusername = new System.Windows.Forms.TextBox();
-            this.txtpassword = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnlogin = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            label1 = new Label();
+            txtusername = new TextBox();
+            txtpassword = new TextBox();
+            label2 = new Label();
+            btnlogin = new Button();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(173, 97);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ten dang nhap";
+            label1.AutoSize = true;
+            label1.Location = new Point(173, 97);
+            label1.Name = "label1";
+            label1.Size = new Size(105, 20);
+            label1.TabIndex = 0;
+            label1.Text = "ten dang nhap";
             // 
             // txtusername
             // 
-            this.txtusername.Location = new System.Drawing.Point(292, 90);
-            this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(125, 27);
-            this.txtusername.TabIndex = 1;
+            txtusername.Location = new Point(292, 90);
+            txtusername.Name = "txtusername";
+            txtusername.Size = new Size(125, 27);
+            txtusername.TabIndex = 1;
             // 
             // txtpassword
             // 
-            this.txtpassword.Location = new System.Drawing.Point(292, 156);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(125, 27);
-            this.txtpassword.TabIndex = 3;
+            txtpassword.Location = new Point(292, 156);
+            txtpassword.Name = "txtpassword";
+            txtpassword.Size = new Size(125, 27);
+            txtpassword.TabIndex = 3;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(173, 163);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "mat khau";
+            label2.AutoSize = true;
+            label2.Location = new Point(173, 163);
+            label2.Name = "label2";
+            label2.Size = new Size(70, 20);
+            label2.TabIndex = 2;
+            label2.Text = "mat khau";
             // 
             // btnlogin
             // 
-            this.btnlogin.Location = new System.Drawing.Point(294, 223);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(94, 29);
-            this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "dang nhap";
-            this.btnlogin.UseVisualStyleBackColor = true;
+            btnlogin.Location = new Point(294, 223);
+            btnlogin.Name = "btnlogin";
+            btnlogin.Size = new Size(94, 29);
+            btnlogin.TabIndex = 4;
+            btnlogin.Text = "dang nhap";
+            btnlogin.UseVisualStyleBackColor = true;
+            btnlogin.Click += btnlogin_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.txtpassword);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtusername);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnlogin);
+            Controls.Add(txtpassword);
+            Controls.Add(label2);
+            Controls.Add(txtusername);
+            Controls.Add(label1);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
